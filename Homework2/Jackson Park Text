@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "JacksonParkArea",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 3 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -90.063705988344168, 29.957358609841677 ], [ -90.063021775142985, 29.958128036408581 ], [ -90.06219219796499, 29.957574149531428 ], [ -90.062861470162616, 29.956820557616833 ], [ -90.063705988344168, 29.957358609841677 ] ] ] ] } }
-]
-}
