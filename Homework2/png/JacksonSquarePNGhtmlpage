@@ -5,7 +5,9 @@
      </head>
      <body>
      
-     <p>Map by Brooke Elliott.</p>
+     <p>Aerial View of Jackson Square in New Orleans, LA. Map by Brooke Elliott.</p>
+     <p>The vector for the metered parking was found here: https://portal-nolagis.opendata.arcgis.com/datasets/NOLAGIS::metered-parking/explore.</p>
+     <p>The GEOJSON files for the map can be found here: https://github.com/brookeel/GEOG370/tree/main/Homework2.</p>
 <img class="fit-picture"
      src="https://i.imgur.com/ym26Dmk.png"
      alt="Image description: an aerial view of Jackson Park in New Orleans, LA. If you're seeing this alt text, please email me at brookeel@ad.unc.edu to let me know there's an issue!">     
