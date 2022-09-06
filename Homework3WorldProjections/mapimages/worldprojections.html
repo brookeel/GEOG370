@@ -6,7 +6,7 @@
     <title>Projections (by Brooke Elliott)</title>
 </head>
 <body>
-    <h1>In this project I learned how to display world maps in different projections.</h1>
+    <h1>Map Projections (by Brooke Elliott)</h1>
     
     <h2 style="color:red">How to display a map in different projections using QGIS:</h2>
     <p>To display the world in different projections, I downloaded a shapefile from the internet that displayed the nations of the world. Files like these can be found at naturalearthdata.com.
@@ -27,8 +27,58 @@
     <a href="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/54043.png">
     <img src="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/54043.png" alt="Aitoff" width='500px'>
     </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
+    <h2>Pseudo-Mercator Projection</h2>
+    <h3>This familiar-looking map is the standard for web mapping applications like Google Earth. The latitudinal and longitudinal lines of this map are straightened,
+	and the indicatrix circles show that shape is completely preserved while area increases drastically near the poles. In this projection, Greenland is about the same
+	size of Africa, even though Greenland is about 1/14th the size of Africa in real life.</h3>
+    <a href="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/3857.png">
+    <img src="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/3857.png" alt="Pseudo Mercator" width='500px'>
+    </a>
+
+<h2>Winkel Tripel Projection</h2>
+    <h3>The Winkel Tripel Projection was adopted as standard by the National Geographic Society in 1998, and it remains almost as popular as maps like the Mercator Projection. This
+	map is a compromise between the Aitoff and Equirectangular Projections, creating an oval shape with a flattened top and bottom. This map creates a balance between
+	shape and area distortion; the greatest distortion occurs near the upper and lower corners of this map. </h3>
+    <a href="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/53018.png">
+    <img src="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/53018.png" alt="Winkel Tripel" width='500px'>
+    </a>
+
+<h2>Cylindrical Equal Area Projection</h2>
+    <h3>This map represents the spheroid Earth on a flat plane by projecting points on the Earth's surface onto a "cylinder" that wraps the Earth. This map preserves area, but vertically
+	squishes the shape of continents as they near the poles. Due to this compression of shape that still preserves area, this particular map projection is long and rectangular. </h3>
+    <a href="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/54034.png">
+    <img src="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/54034.png" alt="Cylindrical Equal Area" width='500px'>
+    </a>
+
+<h2>Equidistant Conic Projection</h2>
+    <h3>This map represents the spheroid Earth on a flat plane in a triangular shape, as the Earth's points are projected onto a cone. The shape and area of countries and continents are 
+	preserved near the north pole, but heavily distorted near the south pole. This style of map is often used for maps of smaller countries and preserves distances across all meridians. </h3>
+    <a href="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/54027.png">
+    <img src="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/54027.png" alt="Equidistant Conic" width='500px'>
+    </a>
+
+<h2>North Pole Azimuthal Equidistant Projection</h2>
+    <h3>This circular map represents the Earth from the perspective of the North Pole, creating heavy horizontal stretching and area increases on lands near the South Pole. As its name
+	implies, this map is primarily used for polar regions (as well as some northern air and land travel). This map projection is also the emblem used by the United Nations. </h3>
+    <a href="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/102016.png">
+    <img src="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/102016.png" alt="North Pole Azimuthal Equidistant" width='500px'>
+    </a>
+
+    <h2>Sinusoidal Projection</h2>
+    <h3>The Sinusoidal Projection shares some traits with maps like the Aitoff Projection, using curved latitudinal and longitudinal lines and a rounded canvas for their map. However, the
+	Sinusoidal Projection is pseudocylindrical, creating a pointed shape at the top and bottom. Despite the heavy shape distortion at the corners of this map, it is actually an equal area
+	map, meaning that the area of each country is preserved. </h3>
+    <a href="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/54008.png">
+    <img src="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/54008.png" alt="Sinusoidal" width='500px'>
+    </a>
+
+<h2>South Pole Azimuthal Equidistant Projection</h2>
+    <h3>This circular map represents the Earth from the perspective of the South Pole, creating heavy horizontal stretching and area increases on lands near the North Pole. As its name
+	implies, this map is primarily used to chart and travel in the southernmost regions of the Earth. </h3>
+    <a href="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/102019.png">
+    <img src="https://raw.githubusercontent.com/brookeel/GEOG370/main/Homework3WorldProjections/mapimages/102019.png" alt="South Pole Azimuthal Equidistant" width='500px'>
+    </a>
+
     <p></p>
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
